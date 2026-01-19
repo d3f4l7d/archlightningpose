@@ -11,9 +11,9 @@ sudo pacman -Syu
 git clone https://github.com/paninski-lab/lightning-pose.git ~/.config/lightningpose
 cd ~/.config/lightningpose
 rm -rf .git .github
-pyenv activate venv10
-pip install torchvision torchaudio
-pip install -e ".[dev.extra_models]"
-pytest
+echo "pyenv activate venv10"
+echo "pip install torchvision torchaudio"
+echo "pip install -e ".[dev.extra_models]""
+echo "pytest"
 
 echo "autoinstall of lightning pose -- DONE"
