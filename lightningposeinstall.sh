@@ -8,6 +8,7 @@ echo
 
 sudo pacman -Syu --noconfirm ffmpeg
 
+~/.pyenv/versions/venv10/bin/pip install --upgrade pip
 ~/.pyenv/versions/venv10/bin/pip install lightning-pose
 ~/.pyenv/versions/venv10/bin/pip install lightning-pose-app
 ~/.pyenv/versions/venv10/bin/litpose run_app
