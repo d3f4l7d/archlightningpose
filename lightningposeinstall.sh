@@ -8,8 +8,8 @@ echo
 
 sudo pacman -Syu
 
-git clone https://github.com/paninski-lab/lightning-pose.git ~/.config/lightningpose
-cd ~/.config/lightningpose
+git clone https://github.com/paninski-lab/lightning-pose.git ~/scrpt/py/lightningpose
+cd ~/scrpt/py/lightningpose
 rm -rf .git .github
 echo "pyenv activate venv10"
 echo "pip install torchvision torchaudio"
