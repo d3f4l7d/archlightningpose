@@ -4,7 +4,7 @@ Execute lightningposeinstall.sh
 1. pyenv global $venv (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
 2. litpose run_app
 3. http://localhost:8080
-4. New Project (or Your Project, go to 8.)
+4. New Project (or Your Project, go to 9.)
 5. Project Name (e.g., pr0j3c7)
 6. Data directory (e.g.,/home/$USER/script/lp/pr0j3c7, ~ or - are not acceptable)
 7. Keypoints (e.g., PointAlpha (\n) PointBeta (\n) PointNemo)
