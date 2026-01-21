@@ -1,7 +1,7 @@
 # Installation
 Execute lightningposeinstall.sh
 # lightning pose app man
-1. pyenv global $venv (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
+1. pyenv activate venv10 (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
 2. litpose run_app
 3. http://localhost:8080
 4. New Project (or Your Project, go to 9.)
