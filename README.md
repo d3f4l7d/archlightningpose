@@ -15,3 +15,11 @@ Execute lightningposeinstall.sh
 12. Enter a number (e.g., 20)
 13. (Label manually)
 14. Save and next (or Save)
+15. Models
+16. New model
+17. Model name (e.g., sresnet50)
+18. Model type (e.g., Supervised resnet50)
+19. Labeled frames (e.g., CollectedData.csv)
+20. Train/val split (e.g., Train prob:0.95, Val prob:0.05, Random seed:0)
+21. Duration (e.g., epochs:300)
+22. Batch size (e.g., 16)
