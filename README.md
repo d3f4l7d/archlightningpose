@@ -1,32 +1,33 @@
 # archlightningpose
 Execute lightningposeinstall.sh
 # lightning pose app man
-1. ~/.pyenv/versions/venv10/bin/litpose run_app (only local does not work from Models, do pyenv global $venv)
-2. http://localhost:8080
-3. New Project (or Your Project, go to 8.)
-4. Project Name (e.g., pr0j3c7)
-5. Data directory (e.g.,/home/$USER/script/lp/pr0j3c7, ~ or - are not acceptable)
-6. Keypoints (e.g., PointAlpha (\n) PointBeta (\n) PointNemo)
-7. Multiview (e.g., None)
-8. ---------- Labeler ----------
-9. Label file
-10. New label file (only CollectedData.csv is acceptable)
-11. Upload a new session (e.g., yourvid.mp4)
-12. Enter a number (e.g., 20)
-13. (Label manually)
-14. Save and next (or Save)
-15. ---------- Models ----------
-16. New model
-17. Model name (e.g., sresnet50)
-18. Model type (e.g., Supervised resnet50)
-19. Labeled frames (e.g., CollectedData.csv)
-20. Train/val split (e.g., Train prob:0.95, Val prob:0.05, Random seed:0)
-21. Duration (e.g., epochs:300)
-22. Batch size (e.g., 16)
-23. (Wait until status:COMPLETED)
-24. Run inference
-25. Choose videos
-26. Import (upload + transcode)
-27. Run inference
-28. ---------- Viewer ----------
-29. (Check predictions)
+1. pyenv global $venv (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
+2. litpose run_app
+3. http://localhost:8080
+4. New Project (or Your Project, go to 8.)
+5. Project Name (e.g., pr0j3c7)
+6. Data directory (e.g.,/home/$USER/script/lp/pr0j3c7, ~ or - are not acceptable)
+7. Keypoints (e.g., PointAlpha (\n) PointBeta (\n) PointNemo)
+8. Multiview (e.g., None)
+9. ---------- Labeler ----------
+10. Label file
+11. New label file (only CollectedData.csv is acceptable)
+12. Upload a new session (e.g., yourvid.mp4)
+13. Enter a number (e.g., 20)
+14. (Label manually)
+15. Save and next (or Save)
+16. ---------- Models ----------
+17. New model
+18. Model name (e.g., sresnet50)
+19. Model type (e.g., Supervised resnet50)
+20. Labeled frames (e.g., CollectedData.csv)
+21. Train/val split (e.g., Train prob:0.95, Val prob:0.05, Random seed:0)
+22. Duration (e.g., epochs:300)
+23. Batch size (e.g., 16)
+24. (Wait until status:COMPLETED)
+25. Run inference
+26. Choose videos
+27. Import (upload + transcode)
+28. Run inference
+29. ---------- Viewer ----------
+30. (Check predictions)
