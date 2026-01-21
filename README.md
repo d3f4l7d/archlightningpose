@@ -1,4 +1,4 @@
-# archlightningpose
+# Installation
 Execute lightningposeinstall.sh
 # lightning pose app man
 1. pyenv global $venv (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
