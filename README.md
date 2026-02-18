@@ -12,18 +12,18 @@ Execute lightningposeinstall.sh
 9. ---------- Labeler ----------
 10. Label file
 11. New label file (only CollectedData.csv is acceptable)
-12. Upload a new session (e.g., yourvid.mp4)
-13. Enter a number (e.g., 20)
+12. Upload a new session (e.g., yourvid_top.mp4)
+13. Enter a number (e.g., 20 => 100)
 14. (Label manually)
 15. Save and next (or Save)
 16. ---------- Models ----------
 17. New model
-18. Model name (e.g., sresnet50)
+18. Model name (e.g., supresnet50v1)
 19. Model type (e.g., Supervised resnet50)
 20. Labeled frames (e.g., CollectedData.csv)
 21. Train/val split (e.g., Train prob:0.95, Val prob:0.05, Random seed:0)
 22. Duration (e.g., epochs:300)
-23. Batch size (e.g., 16)
+23. Batch size (e.g., 16 => 32)
 24. (Wait until status:COMPLETED)
 25. Run inference
 26. Choose videos
