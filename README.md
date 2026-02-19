@@ -13,7 +13,7 @@ Execute lightningposeinstall.sh
 10. Label file
 11. New label file (only CollectedData.csv is acceptable)
 12. Upload a new session (e.g., yourvid_top.mp4)
-13. Enter a number (e.g., 20 => 100)
+13. Enter a number (e.g., 20 => 100, extraction should be once in a same vid, otherwise img is overlapped)
 14. (Label manually)
 15. Save and next (or Save)
 16. ---------- Models ----------
