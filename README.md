@@ -2,7 +2,7 @@
 Execute lightningposeinstall.sh
 # lightning pose app man
 1. pyenv activate venv10 (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
-2. litpose run_app (LP_IGNORE_UPGRADE=1 DO_NOT_TRUC=1 litpose run_app also works BTW)
+2. litpose run_app (LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app also works BTW)
 3. http://localhost:8080
 4. New Project (or Your Project, go to 9.)
 5. Project Name (e.g., pr0j3c7)
