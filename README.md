@@ -13,7 +13,7 @@ Execute lightningposeinstall.sh
 10. Label file
 11. New label file (only CollectedData.csv is acceptable)
 12. Upload a new session (e.g., yourvid_top.mp4)
-13. Enter a number (e.g., 20 => 100, extraction should be once in a same vid, otherwise imgs are overlapping)
+13. Enter a number (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
 14. (Label manually)
 15. Save and next (or Save)
 16. ---------- Models ----------
@@ -21,8 +21,8 @@ Execute lightningposeinstall.sh
 18. Model name (e.g., supresnet50v1)
 19. Model type (e.g., Supervised resnet50)
 20. Labeled frames (e.g., CollectedData.csv)
-21. Train/val split (e.g., Train prob:0.95, Val prob:0.05, Random seed:0)
-22. Duration (e.g., epochs:300)
+21. Train/val split (e.g., Train prob:0.95 => 0.80, Val prob:0.05 => 0.20, Random seed:0)
+22. Duration (e.g., epochs:300 => 30000)
 23. Batch size (e.g., 16 => 32)
 24. (Wait until status:COMPLETED)
 25. Run inference
