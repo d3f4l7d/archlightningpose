@@ -18,7 +18,7 @@ Execute lightningposeinstall.sh
 15. Save and next (or Save)
 16. ---------- Models ----------
 17. New model
-18. Model name (e.g., supresnet50v1)
+18. Model name (e.g., srn50802003000032)
 19. Model type (e.g., Supervised resnet50)
 20. Labeled frames (e.g., CollectedData.csv)
 21. Train/val split (e.g., Train prob:0.95 => 0.80, Val prob:0.05 => 0.20, Random seed:0)
