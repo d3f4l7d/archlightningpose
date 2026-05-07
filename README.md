@@ -38,3 +38,7 @@ or if you haven't configure your NVIDIA GPU, execute
 28. Run inference
 29. ---------- Viewer ----------
 30. (Check predictions)
+
+MIT License
+
+Copyright (c) 2026 d3f4l7d
