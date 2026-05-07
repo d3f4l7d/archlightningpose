@@ -1,9 +1,9 @@
 echo 
-echo "  ____ _     ___ ___  _   _ _  __   _____ ____ _____ "
-echo " / ___| |   |_ _/ _ \| \ | | | \ \ / /_ _/ ___|_   _|"
-echo "| |   | |    | | | | |  \| | |  \ V / | |\___ \ | |  "
-echo "| |___| |___ | | |_| | |\  | |___| |  | | ___) || |  "
-echo " \____|_____|___\___/|_| \_|_____|_| |___|____/ |_|  "
+echo " _   ___     _____ ____ ___    _    _____ _  ___   _ "
+echo "| \ | \ \   / /_ _|  _ \_ _|  / \  |  ___| |/ / | | |"
+echo "|  \| |\ \ / / | || | | | |  / _ \ | |_  | | /| | | |"
+echo "| |\  | \ V /  | || |_| | | / ___ \|  _| | | \| |_| |"
+echo "|_| \_|  \_/  |___|____/___/_/   \_\_|   |_|\_\\___/ "
 echo
 
 sudo pacman -Syu --noconfirm
@@ -59,27 +59,6 @@ else
     echo "autoinstall of NvChad -- DONE"
 fi
 
-if ! command -v ghc &> /dev/null
-then
-    echo
-    echo " _   _    _    ____  "
-    echo "| | | |  / \  / ___| "
-    echo "| |_| | / _ \ \___ \ "
-    echo "|  _  |/ ___ \ ___) |"
-    echo "|_| |_/_/   \_\____/ "
-    echo
-
-    echo "DYYAYY"
-    curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
-
-else
-    echo "exec "$SHELL" manually"
-    echo "source ~/.zshrc"
-    echo "Haskell is already installed. Skip HAS process..."
-    ghc --version
-    which haskell-language-server-wrapper
-fi
-
 if pacman -Q python-pip &> /dev/null; then
     echo "python-pip is already installed. Skip PY process..."
     echo "pyenv install 3.10 (3.10.19)"
@@ -111,24 +90,6 @@ else
     echo "exec "$SHELL" manually"
 
     echo "autoinstall of Python -- DONE"
-fi
-
-if pacman -Q cups &> /dev/null; then
-    echo "cups is already installed. Skip CUPS process..."
-else
-    echo
-    echo "   ____ _   _ ____  ____  "
-    echo "  / ___| | | |  _ \/ ___| "
-    echo " | |   | | | | |_) \___ \ "
-    echo " | |___| |_| |  __/ ___) |"
-    echo "  \____|\___/|_|   |____/ "
-    echo
-
-    sudo pacman -S --noconfirm cups libxml2-legacy
-    sudo systemctl start cups
-    sudo systemctl enable cups
-
-    echo "autoinstall of cups -- DONE"
 fi
 
 if pacman -Q nvidia-open-dkms &> /dev/null; then
