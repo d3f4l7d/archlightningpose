@@ -1,5 +1,5 @@
 # Installation
-Execute
+Execute like the below.
 ```
 ./lightningposeinstall.sh
 ```
