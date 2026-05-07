@@ -1,5 +1,12 @@
 # Installation
-Execute lightningposeinstall.sh
+Execute
+```
+./lightningposeinstall.sh
+```
+or if you haven't configure your NVIDIA GPU, execute
+```
+./nvidiafku.sh
+```
 # lightning pose app man
 1. pyenv activate venv10 (~/.pyenv/versions/venv10/bin/litpose run_app does not work from Models)
 2. litpose run_app (LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app also works BTW)
