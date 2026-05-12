@@ -15,7 +15,7 @@ then
     ~/.pyenv/versions/venv10/bin/pip install lightning-pose
     ~/.pyenv/versions/venv10/bin/pip install lightning-pose-app
     ~/.pyenv/versions/venv10/bin/litpose run_app
-    echo "autoinstall of lightning-pose -- DONE"
+    echo "autoinstall of lightning pose -- DONE"
 else
     echo "lightning pose is already installed. Skip LP process..."
 fi
