@@ -10,6 +10,14 @@ sudo pacman -Syu
 
 if ! command -v litpose &> /dev/null
 then
+    echo
+    echo " _     ____  "
+    echo "| |   |  _ \ "
+    echo "| |   | |_) |"
+    echo "| |___|  __/ "
+    echo "|_____|_|    "
+    echo
+
     sudo pacman -S --noconfirm ffmpeg
     ~/.pyenv/versions/venv10/bin/pip install --upgrade pip
     ~/.pyenv/versions/venv10/bin/pip install lightning-pose
