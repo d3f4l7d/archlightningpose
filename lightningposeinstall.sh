@@ -6,11 +6,16 @@ echo "| |___ | | |_| |  _  | | | | |\  || || |\  | |_| | |  __/| |_| |___) | |__
 echo "|_____|___\____|_| |_| |_| |_| \_|___|_| \_|\____| |_|    \___/|____/|_____|"
 echo
 
-sudo pacman -Syu --noconfirm ffmpeg
+sudo pacman -Syu
 
-~/.pyenv/versions/venv10/bin/pip install --upgrade pip
-~/.pyenv/versions/venv10/bin/pip install lightning-pose
-~/.pyenv/versions/venv10/bin/pip install lightning-pose-app
-~/.pyenv/versions/venv10/bin/litpose run_app
+if ! command -v litpose &> /dev/null
+then
+    sudo pacman -S --noconfirm ffmpeg
+    ~/.pyenv/versions/venv10/bin/pip install --upgrade pip
+    ~/.pyenv/versions/venv10/bin/pip install lightning-pose
+    ~/.pyenv/versions/venv10/bin/pip install lightning-pose-app
+    ~/.pyenv/versions/venv10/bin/litpose run_app
+else
+    echo ""
 
 echo "autoinstall of lightning-pose -- DONE"
