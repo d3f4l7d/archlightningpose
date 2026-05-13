@@ -41,7 +41,3 @@ or if you haven't configure your NVIDIA GPU, execute
 
 ## License
 MIT License - see LICENSE file for more details.
-
-MIT License
-
-Copyright (c) 2026 d3f4l7d
