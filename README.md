@@ -40,4 +40,4 @@ or if you haven't configure your NVIDIA GPU, execute
 30. (Check predictions)
 
 ## License
-MIT License - see LICENSE file for more details.
+MIT License - see [LICENSE](/LICENSE) for more details.
