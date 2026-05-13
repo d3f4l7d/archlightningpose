@@ -6,7 +6,7 @@ echo "| |___ | | |_| |  _  | | | | |\  || || |\  | |_| | |  __/| |_| |___) | |__
 echo "|_____|___\____|_| |_| |_| |_| \_|___|_| \_|\____| |_|    \___/|____/|_____|"
 echo
 
-sudo pacman -Syu
+sudo pacman -Syuu
 
 if ! command -v litpose &> /dev/null
 then
