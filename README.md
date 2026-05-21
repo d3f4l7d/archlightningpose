@@ -17,7 +17,7 @@ or if you haven't configure your NVIDIA GPU, execute
 > [!TIP]
 > Also ```LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app``` works w/o any upgrade or Umami web event tracking.
 > In case you upgrade the app, execute like the below.
-> ```pip install --upgrade pip```
+> ```pip install --upgrade pip``` then, 
 > ```pip install --upgrade lightning-pose-app```
 
 Then, click the link to your localhost server.
