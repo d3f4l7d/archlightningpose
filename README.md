@@ -33,12 +33,12 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 1. Hit green [+] on top left.
 2. Check 'New label file' in "Label file" (only CollectedData.csv is acceptable)
 3. Hit 'Continue'
-4. Hit 'Upload a new session' (e.g., yourvid_top.mp4)
+4. Hit 'Upload a new session' (e.g., <yourvideoheader_top.mp4>)
 5. Hit 'Choose videos'
-6. 
-7. Enter a number (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
+6. Hit 'Import'
+7. Enter a number of extraction (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
 8. (Label manually)
-9. Save and next (or Save)
+9. Hit 'Save and next' (or 'Save')
 ### ---------- Models ----------
 1. New model
 2. Model name (e.g., srn50802003000032)
