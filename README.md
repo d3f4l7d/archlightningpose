@@ -14,9 +14,8 @@ or if you haven't configure your NVIDIA GPU, execute
 ~/.pyenv/versions/<yourvenvname>/bin/litpose run_app does not work BTW
 2. Run app
 ```litpose run_app```
-[!TIP]
-> Also this works w/o any upgrade or Umami web event tracking
-> ```LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app```
+> [!TIP]
+> Also ```LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app``` works w/o any upgrade or Umami web event tracking.
 > In case you upgrade the app, execute like the below.
 > ```pip install --upgrade pip```
 > ```pip install --upgrade lightning-pose-app```
