@@ -19,7 +19,6 @@ or if you haven't configure your NVIDIA GPU, execute
 > In case you upgrade the app, execute like the below.
 > ```pip install --upgrade pip``` and, 
 > ```pip install --upgrade lightning-pose-app```
-
 Then, click the link to your localhost server (```http://localhost:8080```).
 ### Getting Started From Scratch
 ### ---------- Project settings ----------
@@ -28,15 +27,18 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 3. Fill 'Project Name' in "Local setup" (e.g., pr0j3c7)
 4. Check 'Data directory' in "Local setup" (e.g.,/home/$USER/LPProjects/pr0j3c7, ~ or - are not acceptable)
 5. Add 'Keypoints names' in "Keypoints" (e.g., sigmaA (\n) sigmaB (\n) ... (\n) sigmaH)
-6. Add 'Camera view names' in "Multiview" (e.g., <yourvideoheader_top.mp4> (\n) <yourvideoheader_front.mp4>)
+6. Add 'Camera view names' in "Multiview" (e.g., <yourvideoheader_top.mp4> (\n) <yourvideoheader_front.mp4>, include all your video)
 7. Hit 'Save'
 ### ---------- Labeler ----------
-1. Label file
-2. New label file (only CollectedData.csv is acceptable)
-3. Upload a new session (e.g., yourvid_top.mp4)
-4. Enter a number (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
-5. (Label manually)
-6. Save and next (or Save)
+1. Hit green [+] on top left.
+2. Check 'New label file' in "Label file" (only CollectedData.csv is acceptable)
+3. Hit 'Continue'
+4. Hit 'Upload a new session' (e.g., yourvid_top.mp4)
+5. Hit 'Choose videos'
+6. 
+7. Enter a number (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
+8. (Label manually)
+9. Save and next (or Save)
 ### ---------- Models ----------
 1. New model
 2. Model name (e.g., srn50802003000032)
