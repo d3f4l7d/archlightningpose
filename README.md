@@ -35,11 +35,12 @@ Then, click the link to your localhost server.
  http://localhost:8080
 ```
 ### Getting Started From Scratch
-1. New Project (or Your Project, go to 9.)
-8. Project Name (e.g., pr0j3c7)
-9. Data directory (e.g.,/home/$USER/script/lp/pr0j3c7, ~ or - are not acceptable)
-10. Keypoints (e.g., PointAlpha (\n) PointBeta (\n) PointNemo)
-11. Multiview (e.g., None)
+1. Click 'New Project'
+2. Select 'From Scratch'
+3. Fill 'Project Name' in "Local setup" (e.g., pr0j3c7)
+4. Check 'Data directory' in "Local setup" (e.g.,/home/$USER/LPProjects/pr0j3c7, ~ or - are not acceptable)
+5. Add 'Keypoints names' in "Keypoints" (e.g., sigmaA (\n) sigmaB (\n) ... (\n) sigmaH)
+6. Add 'Camera view names' in "Multiview" (e.g., <yourvideoheader_top.mp4> (\n) <yourvideoheader_front.mp4>)
 12. ---------- Labeler ----------
 13. Label file
 14. New label file (only CollectedData.csv is acceptable)
