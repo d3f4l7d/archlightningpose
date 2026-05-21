@@ -18,18 +18,24 @@ pyenv activate <yourvenvname>
 ```
 litpose run_app
 ```
-Also
+Also this works w/o any upgrade or Umami web event tracking
 ```
 LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app
 ```
-
+In case you upgrade the app, execute like the below.
 ```
 pip install --upgrade pip
-``` 
-4. ``` pip install --upgrade lightning-pose-app ```
-5. ``` litpose run_app ``` (``` LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app ``` also works BTW)
-6. ``` http://localhost:8080 ```
-7. New Project (or Your Project, go to 9.)
+```
+
+```
+pip install --upgrade lightning-pose-app
+```
+Then, click the link to your localhost server.
+ ```
+ http://localhost:8080
+```
+### Getting Started From Scratch
+1. New Project (or Your Project, go to 9.)
 8. Project Name (e.g., pr0j3c7)
 9. Data directory (e.g.,/home/$USER/script/lp/pr0j3c7, ~ or - are not acceptable)
 10. Keypoints (e.g., PointAlpha (\n) PointBeta (\n) PointNemo)
