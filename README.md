@@ -10,30 +10,17 @@ or if you haven't configure your NVIDIA GPU, execute
 ## lightning pose app man
 ### Start Server Process
 1. Enter your python venv.
-```
-pyenv activate <yourvenvname>
-```
+```pyenv activate <yourvenvname>```
 ~/.pyenv/versions/<yourvenvname>/bin/litpose run_app does not work BTW
 2. Run app
-```
-litpose run_app
-```
+```litpose run_app```
 Also this works w/o any upgrade or Umami web event tracking
-```
-LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app
-```
+```LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app```
 In case you upgrade the app, execute like the below.
-```
-pip install --upgrade pip
-```
-
-```
-pip install --upgrade lightning-pose-app
-```
+```pip install --upgrade pip```
+```pip install --upgrade lightning-pose-app```
 Then, click the link to your localhost server.
- ```
- http://localhost:8080
-```
+```http://localhost:8080```
 ### Getting Started From Scratch
 ### ---------- Project settings ----------
 1. Click 'New Project'
