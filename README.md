@@ -36,7 +36,7 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 4. Hit 'Upload a new session' (e.g., <yourvideoheader_top.mp4>)
 5. Hit 'Choose videos'
 6. Hit 'Import'
-7. Enter a number of extraction (e.g., 20 => 185, extraction should be once in a same vid, otherwise imgs are overlapping)
+7. Enter a number of extraction (e.g., 20 => 200, extraction should be once in a same vid, otherwise imgs are overlapping)
 8. (Label manually)
 9. Hit 'Save and next' (or 'Save')
 ### ---------- Models ----------
