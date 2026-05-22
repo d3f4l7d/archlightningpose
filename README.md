@@ -9,11 +9,9 @@ or if you haven't configure your NVIDIA GPU, execute
 ```
 ## lightning pose app man
 ### Start Server Process
-1. Enter your python venv.
-```pyenv activate <yourvenvname>```
+1. Enter your python venv via ```pyenv activate <yourvenvname>```
 ~/.pyenv/versions/<yourvenvname>/bin/litpose run_app does not work BTW
-2. Run app
-```litpose run_app```
+2. Run app via ```litpose run_app```
 > [!TIP]
 > Also ```LP_IGNORE_UPGRADE=1 DO_NOT_TRUCK=1 litpose run_app``` works w/o any upgrade or Umami web event tracking.
 > In case you upgrade the app, execute like the below.
@@ -25,9 +23,11 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 1. Click 'New Project'
 2. Select 'From Scratch'
 3. Fill 'Project Name' in "Local setup" (e.g., pr0j3c7)
-4. Check 'Data directory' in "Local setup" (e.g.,/home/$USER/LPProjects/pr0j3c7, ~ or - are not acceptable)
+4. Check 'Data directory' in "Local setup" (e.g.,/home/$USER/LPProjects/pr0j3c7, ~ or - are not acceptable.)
 5. Add 'Keypoints names' in "Keypoints" (e.g., sigmaA (\n) sigmaB (\n) ... (\n) sigmaH)
-6. Add 'Camera view names' in "Multiview" (e.g., <yourvideoheader_top.mp4> (\n) <yourvideoheader_front.mp4>, include all your video)
+6. Add 'Camera view names' in "Multiview" (e.g., top (\n) front, add the view name only.)
+> [!TIP]
+> Close server to load if Project settings was renewed.
 7. Hit 'Save'
 ### ---------- Labeler ----------
 1. Hit green [+] on top left.
