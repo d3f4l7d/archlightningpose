@@ -27,7 +27,7 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 5. Add 'Keypoints names' in "Keypoints" (e.g., sigmaA (\n) sigmaB (\n) ... (\n) sigmaH)
 6. Add 'Camera view names' in "Multiview" (e.g., top (\n) front, add the view name only.)
 > [!TIP]
-> Close server ``` ctrl + c ``` to load if Project settings was renewed.
+> Close server via ``` ctrl + c ``` to load if Project settings was renewed.
 7. Hit 'Save'
 ### ---------- Labeler ----------
 1. Hit green [+] on top left.
