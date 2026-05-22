@@ -26,6 +26,8 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 4. Check 'Data directory' in "Local setup" (e.g.,/home/$USER/LPProjects/pr0j3c7, ~ or - are not acceptable.)
 5. Add 'Keypoints names' in "Keypoints" (e.g., sigmaA (\n) sigmaB (\n) ... (\n) sigmaH)
 6. Add 'Camera view names' in "Multiview" (e.g., top (\n) front, add the view name only.)
+> [!CAUTION]
+> Fill the view name only (e.g., top, front, side) otherwise the name is invalid.
 > [!TIP]
 > Close server via ``` ctrl + c ``` to load if Project settings was renewed.
 7. Hit 'Save'
