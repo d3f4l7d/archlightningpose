@@ -21,7 +21,7 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 ### Getting Started From Scratch
 ### ---------- Project settings ----------
 > [!TIP]
-> You could literally ignore and keep using your favorite browser (at least librewolf) even if this msg like:
+> You could literally ignore and keep using your favorite browser (at least librewolf) even if there's the msg like:
 > "Browser other than Chrome detected. Switch to Chrome for Labeling and Viewing keypoints."
 1. Click 'New Project'
 2. Select 'From Scratch'
