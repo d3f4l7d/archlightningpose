@@ -20,6 +20,9 @@ or if you haven't configure your NVIDIA GPU, execute
 Then, click the link to your localhost server (```http://localhost:8080```).
 ### Getting Started From Scratch
 ### ---------- Project settings ----------
+> [!TIP]
+> You could literally ignore and keep using your favorite browser (at least librewolf) even if this msg like:
+> "Browser other than Chrome detected. Switch to Chrome for Labeling and Viewing keypoints."
 1. Click 'New Project'
 2. Select 'From Scratch'
 3. Fill 'Project Name' in "Local setup" (e.g., pr0j3c7)
@@ -40,7 +43,7 @@ Then, click the link to your localhost server (```http://localhost:8080```).
 5. Hit 'Choose videos'
 6. Hit 'Import'
 7. Enter a number of extraction (e.g., 20 => 200, extraction should be once in a same vid, otherwise imgs are overlapping)
-8. (Label manually)
+8. Label those frames (Takes 85% of your time BTW)
 9. Hit 'Save and next' (or 'Save')
 ### ---------- Models ----------
 1. New model
