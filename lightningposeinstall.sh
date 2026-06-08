@@ -1,3 +1,14 @@
+if pacman -Q zsh &> /dev/null; then
+    #!/bin/zsh
+else
+    echo "zsh is not installed."
+    echo "This script was tested under zsh."
+    echo "Install zsh via pacman like: sudo pacman -S zsh && sudo chsh -s /bin/zsh $USER"
+    echo "Or remove this if section via your texteditor like: vim lightningposeinstall.sh"
+    exit
+fi
+
+
 echo
 echo " _     ___ ____ _   _ _____ _   _ ___ _   _  ____   ____   ___  ____  _____ "
 echo "| |   |_ _/ ___| | | |_   _| \ | |_ _| \ | |/ ___| |  _ \ / _ \/ ___|| ____|"
