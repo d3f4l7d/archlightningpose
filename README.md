@@ -1,11 +1,11 @@
 ## Installation
 Execute like the below.
 ```
-./lightningposeinstall.sh
+./lightningposeinstall.sh 2>&1 | tee ~/.d3f4l7d/archlightningpose/log/lightningposeinstall_stdouterr.txt
 ```
 or if you haven't configure your NVIDIA GPU, execute
 ```
-./nvidiafku.sh
+./nvidiainstall.sh 2>&1 | tee ~/.d3f4l7d/archlightningpose/log/nvidiainstall_stdouterr.txt
 ```
 ## lightning pose app man
 ### Start Server Process
