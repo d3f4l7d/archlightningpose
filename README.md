@@ -2,7 +2,7 @@
 
 <img width="3403" height="1138" alt="LightningPose_horizontal_light" src="https://github.com/user-attachments/assets/466ebb58-ca1b-4788-82ce-d71e7dd35878" />
 
-[Lightning Pose](https://github.com/paninski-lab/lightning-pose) is a FOSS (Free and Open-Source Software) package for PCA and k-mean based pose estimation and motion tracking with semi-supervised machine learning, which was published by [Dan Biderman](https://scholar.google.com/citations?user=6WFbVJUAAAAJ&hl=iw) as [His paper](https://doi.org/10.1038/s41592-024-02319-1). In original repository, Windows (but WSL) and Ubuntu (18.04, 22.04, and 24.04) are officially supported, not Arch Linux. ***So, I made install guide for Arch Linux.***
+[Lightning Pose](https://github.com/paninski-lab/lightning-pose) is a FOSS (Free and Open-Source Software) package for PCA and k-mean based pose estimation and motion tracking with semi-supervised machine learning, which was published by [Dan Biderman](https://scholar.google.com/citations?user=6WFbVJUAAAAJ&hl=iw) as [His paper](https://doi.org/10.1038/s41592-024-02319-1). In original repository, Windows (but WSL) and Ubuntu (18.04, 22.04, and 24.04) are officially supported, not Arch Linux. ***So, I made this install guide for Arch Linux.***
 
 ## Installation
 Execute like the below.
