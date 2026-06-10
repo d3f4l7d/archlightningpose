@@ -3,7 +3,19 @@ Execute like the below.
 ```
 ./lightningposeinstall.sh 2>&1 | tee lightningposeinstall_stdouterr.txt
 ```
-or if you haven't configure your NVIDIA GPU, execute
+or if you haven't configure your NVIDIA GPU, clone my nvidia repository first.
+```
+git clone https://github.com/d3f4l7d/archresearch.git ~/.config/d3f4l7d/archresearch
+```
+And execute like the below.
+```
+cd ~/.config/d3f4l7d/archresearch
+```
+
+```
+chmod +x nvidiainstall.sh
+```
+
 ```
 ./nvidiainstall.sh 2>&1 | tee nvidiainstall_stdouterr.txt
 ```
